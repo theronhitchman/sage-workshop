@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage{url}
+
+\title{Examples of Educational Uses of Sage}
+\author{Theron~J~Hitchman}
+\date{14 November 2013}
+
+
+\begin{document}
+\maketitle
+
+To prepare for this workshop, I asked for examples of how people use the software in educational context on some Sage mailing lists.
+I have compiled some interesting responses here.
+
+\section{The Sage Cell Server for Demonstration}
+
+The Sage Cell Server (\url{http://sagecell.sagemath.org/}) is easy to use during class. A single imporant computation can be designed and worked on as a demonstration, or as part of a class discussion.
+Students can see the effect of changing parameters, and the instructor can help guide discussion.
+The cell server even supports interacts.
+After the discussion is done, it is easy to grab the url and share it.
+
+Example:
+\begin{itemize}
+\item Andrei Novoseltsov's interacts for Calc 3:
+
+\url{http://sage.math.ualberta.ca/MATH209/}
+
+\item An example used in HS by Michel Paul
+
+\url{http://aleph.sagemath.org/?q=yiwxzs}
+
+\end{itemize}
+
+\section{The Sage Cell Server for web-based Materials}
+
+Examples:
+\begin{itemize}
+\item The MAA calculus book tablet verion uses Sage Cell Server
+
+\url{http://calculuscourse.maa.org/}
+
+\item Karl-Dieter Crisman's number theory notes/online book
+
+\url{http://www.math-cs.gordon.edu/~kcrisman/mat338/index.html}
+
+\item Jason Grout's Advanced Linear Algebra course notes
+
+\url{http://jasongrout.github.io/applied-linear-algebra/}
+
+\end{itemize}
+
+\section{A local notebook server}
+
+Create a server running sage which is available for a whole class of students. This facilitates sharing of worksheets for grading.
+
+Example:
+\begin{itemize}
+\item John Perry
+\begin{quotation}
+Q: When you give sage-y assignments, how do you go about collecting, marking, and returning them?
+
+A: All online, using the server. Students submit by sharing with me; they then see the result immediately after I save the changes I make. I type comments in html cells near the students' responses, in a different color. I usually save the graded worksheet to a local drive, so students can't mess with it.
+
+This typically works fine, but it can go bad. My Calculus class had submitted worksheets for one recent project, and my computer crashed, hard drive and all. I was able to recover the submissions, but as you can imagine, this could be pretty bad in general.
+
+Another drawback is that, as far as I know, there is no way to organize worksheets into folders. The home page can get to be a big, long mess. I ask students to un-share their projects after the fact.
+\end{quotation}
+
+\item Andrei Novoseltsev: Sage Notebook server, students turn in homwork using the system. Also uses SageTeX to make assignments and solutions. Ran an exam using a local notebook server! Danger: need sufficient RAM and a stable internet connection.
+
+\item The calculus sequence at Stephen F. Austin State uses Sage through the notebook server for its lab assignments.
+
+\item TJ Hitchman: Linear algebra with lab homeworks.
+
+\end{itemize}
+
+\clearpage
+
+\section{For a Large Class: suggestion from William}
+
+\begin{quotation}
+I just realized that there is something that some people in Egypt (?)
+are doing with sagemath cloud, which might be worth mentioning, since
+it could lead to good ideas about what I should implement for a viable
+workflow...
+
+1. Make an account specifically for this class, e.g., with email
+theronhitchman+calc101@gmail.com
+
+2. Ask each student to make one project for the class, and add
+theronhitchman+calc101@gmail.com as a collaborator.  (Maybe this is
+the step to automate.)
+
+3. Ask them to put there solutions in a certain folder in the project.
+
+4. When you want to grade, give feedback, etc., login as
+theronhitchman+calc101@gmail.com and click on each of the 25 projects
+you have in turn. Each will have a folder with solutions.  You can
+comment on the solutions by editing the files directly.  There's a
+snapshot system, so your comments can't get lost, and also you know
+exactly what the student submitted by the submission deadline.   When
+the student looks at the project, they can see what grade they got,
+what your comments were, etc.
+The student could even watch (via collaboration) as you're grading.
+\end{quotation}
+
+\clearpage
+
+\section{Cloud Service, \LaTeX, \& git}
+
+Rob Beezer has used Sage for some time to enhance his teaching. (Linear Algebra book, Tom Judson's Abstract Algebra book)
+
+He shared how he is using the cloud service to teach the use of \LaTeX\ for writing and Sage for computing in a linear algebra course.
+
+\begin{quotation}
+LaTeX:
+I did a 5-day run of an intro-to-LaTeX with sophomore linear algebra students, with just 10 minutes a day of me pounding out simple examples in the cloud using a projector in class.  Each day's iteration was posted (see below), then a clean template provided at the conclusion.
+
+They write two proofs per chapter (about every two weeks), with retries required until the proof is ironclad.  One to two pages each.  The cloud is their default platform for producing these.  I suspect their sources are abysmal, but the PDFs look pretty good pretty quickly.  I correct their TeX and their math, and increase my TeX expectations a little more each time.
+
+I have spent very little time teaching them much more LaTeX.  Google is their friend.
+
+
+Sage:
+I do short (15 minute) worksheets maybe a couple times each chapter.  These will become more numerous now in the second half of the course (determinants, eigenvalues, linear transformations).  I post an incomplete version before class (see below), then do my William-Stein-on-the-fly imitation, which evaluations say they like better than watching me shift-enter my way through a worksheet. So I prepare things like singular matrices in advance, but then illustrate theorems with random vectors or matrices, and "random" linear combinations.
+
+I save each class' session at the end of the hour as a transcript (-11, -12 on filenames by meeting time).  I post these (see below) before I even leave the classroom.
+
+
+Posting:
+Everything is in a git repo.  I've told them to clone into a Sage cloud project and then told them how to pull.  Its been zero-maintenance (so long as I remember to push!).  And it is public, since it is on GitHub, so you can see all this stuff there.  Help yourself.  Now producing iPython notebooks from my XML sources.
+
+\url{https://github.com/rbeezer/Math290F13}
+
+Directions for students to clone/pull from cloud terminal:
+
+\url{http://buzzard.ups.edu/courses/2013fall/290f2013.html}
+
+
+Office Hours:
+I've held weekend office hours using MathJax-enabled chat and a Sage project/worksheet I shared with every student in the class (they all have accounts for LaTeX'ing already).  Limited experiment, as they have not shown up so much.
+
+
+Collaborative Editing:
+Tomorrow I will try to teach three students to make typo corrections on my linear algebra book via pull requests on GitHub, but I don't think that qualifies as Sage yet.  But they could do this work in a cloud project and stay in sync with a Github fork of the book.
+
+\end{quotation}
+
+\end{document}
+
+%sagemathcloud={"zoom_width":100}
