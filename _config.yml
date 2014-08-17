@@ -17,3 +17,5 @@ highlighter:   pygments
 sageurl:       "http://sagemath.org"
 smcurl:        "http://cloud.sagemath.org"
 sagecellurl:   "https://sagecell.sagemath.org/"
+
+pythonurl:     "http://www.python.org"
