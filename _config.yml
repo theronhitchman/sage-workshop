@@ -1,0 +1,19 @@
+name:          "Sage Introduction Workshop"
+shortname:     "Sage Intro"
+description:   "A Short Introduction to Sage"
+email:         theron.hitchman@uni.edu
+
+
+url:           "http://theronhitchman.github.io"
+baseurl:       "/sage-workshop"
+
+
+markdown:      kramdown
+highlighter:   pygments
+
+
+# link urls
+
+sageurl:       "http://sagemath.org"
+smcurl:        "http://cloud.sagemath.org"
+sagecellurl:   "https://sagecell.sagemath.org/"
