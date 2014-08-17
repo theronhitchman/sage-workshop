@@ -30,4 +30,15 @@ And there a useful Q & A site:
 
 * [ask.sagemath.org](http://ask.sagemath.org/questions/)
 
+<hr />
+
+For a list of interesting examples, you can pull down an officially curated set of
+example files by going to the "new file" page and pasting in this address:
+
+        https://github.com/sagemath/cloud-examples.git
+
+This will create a directory in your project called `cloud-examples` which contains
+lots of interesting things.
+
+
 <p><br /></p>
