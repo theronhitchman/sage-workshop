@@ -21,7 +21,7 @@ The first thing to note is that a worksheet is made up of "cells." These are whe
 ︠df84264c-fbe7-43b9-97a2-45e094363aebi︠
 %html
 <p>
-Note that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.
+Note that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active input line has a light blue background.
 </p>
 <p>
 Another way to evaluate a cell is to use the "run" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word "run" on it. If not, just look for the triangle pointing to the right.
@@ -29,17 +29,17 @@ Another way to evaluate a cell is to use the "run" button at the top of the work
 <p>
 Try that version now with the simple computation below.
 <p>
-︡a76ef72f-2a0d-46ae-a729-6f53cd066b5f︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>"}︡
+︡e69c0f6a-2ffa-40fa-b6a4-c94d8aedf9f7︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active input line has a light blue background.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>\n"}︡
 ︠640cc705-2c35-4751-804b-62f46a23e2bf︠
 67-5
 ︠aa88d77c-911e-4ea7-9316-8bb11a061c17i︠
 %md
-To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.
+To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a `.sagews` file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.
 
 The other way to make a new cell also works in the middle of a worksheet. Use your mouse or trackpad to hover over one of the thin grey horizontal rulings which separate cells. The ruling should get highlighted in blue. At this point, clicking the highlighted ruling will create a new cell directly below that ruling.
 
 Try it now. Make a new cell between the ones below.
-︡2b6c649c-e5b2-4236-b5a4-43e0736d1925︡{"html":"<p>To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.</p>\n\n<p>The other way to make a new cell also works in the middle of a worksheet. Use your mouse or trackpad to hover over one of the thin grey horizontal rulings which separate cells. The ruling should get highlighted in blue. At this point, clicking the highlighted ruling will create a new cell directly below that ruling.</p>\n\n<p>Try it now. Make a new cell between the ones below.</p>\n"}︡
+︡39e9a096-9866-4669-98bf-e20bbfe1b05d︡{"md":"To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a `.sagews` file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.\n\nThe other way to make a new cell also works in the middle of a worksheet. Use your mouse or trackpad to hover over one of the thin grey horizontal rulings which separate cells. The ruling should get highlighted in blue. At this point, clicking the highlighted ruling will create a new cell directly below that ruling.\n\nTry it now. Make a new cell between the ones below.\n"}︡
 ︠22707caf-a45b-4edc-adeb-d3f6ce8ad86c︠
 print('Do not touch this cell. Make a new one just below it!')
 ︡54548497-c025-473e-8185-17180a5e7674︡{"stdout":"Do not touch this cell. Make a new one just below it!\n"}︡
@@ -69,7 +69,7 @@ If you don't know either, basic [Markdown][md] is easy to learn. Even if you don
 After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.
 
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown Syntax Page"
-︡16d7f3d4-8263-47b5-99ae-9f4b725178d6︡{"html":"<p>It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.</p>\n\n<ul>\n<li><p>HTML: If you open a cell with the &#8220;decorator&#8221; <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.</p></li>\n<li><p>Markdown: If you open a cell with the &#8220;decorator&#8221; <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.</p></li>\n</ul>\n\n<p>If you don&#8217;t know either, basic <a href=\"http://daringfireball.net/projects/markdown/syntax\" title=\"Markdown Syntax Page\">Markdown</a> is easy to learn. Even if you don&#8217;t learn it, paragraphs typed in markdown will display roughly how you want them on this page.</p>\n\n<p>After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.</p>\n"}︡
+︡d2f33e0f-33ed-484e-89cc-bd8972f67270︡{"md":"It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.\n\n + HTML: If you open a cell with the \"decorator\" <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.\n\n + Markdown: If you open a cell with the \"decorator\" <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.\n\nIf you don't know either, basic [Markdown][md] is easy to learn. Even if you don't learn it, paragraphs typed in markdown will display roughly how you want them on this page.\n\nAfter evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.\n\n[md]: http://daringfireball.net/projects/markdown/syntax \"Markdown Syntax Page\"\n"}︡
 ︠fc56969e-9a03-41d4-9ac9-d5e837a8981a︠
 
 ︡f4eae00a-c306-4656-b36f-c8f8fb5b82a8︡
@@ -77,20 +77,19 @@ After evaluation, the input for a Markdown or html cell will automatically hide.
 
 ︡25ee79c9-48bd-4b34-8630-79a02a53c8ef︡
 ︠e37895f9-f78b-4ffe-b32d-be1cbd5e1ef7i︠
-%html
-<h2>Sage as a Calculator</h2>
+%md
+## Sage as a Calculator
 
-Arithmetic works just as you would expect. The basic operations are + for addition, - for subtraction, * for multiplication, / for division, and ^ for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations.
-︡72aab168-1823-4f99-b64a-097c6fa2a4aa︡{"html":"<h2>Sage as a Calculator</h2>\n\nArithmetic works just as you would expect. The basic operations are + for addition, - for subtraction, * for multiplication, / for division, and ^ for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations."}︡
+Arithmetic works just as you would expect. The basic operations are `+` for addition, `-` for subtraction, `*` for multiplication, `/` for division, and `^` for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations.
+︡a0cd5fc4-252c-4aad-9aee-6c88c34d4bd5︡{"md":"## Sage as a Calculator\n\nArithmetic works just as you would expect. The basic operations are `+` for addition, `-` for subtraction, `*` for multiplication, `/` for division, and `^` for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations.\n"}︡
 ︠9ee3f618-c282-4bd5-ab19-86d032d4ca49︠
 
-︡13d4a1be-4164-4245-bdaf-8b0f36152cfc︡
 ︠35708877-f87d-43ce-b3b1-ae9fc880d419i︠
 %md
-Note that sage tries to remember what kind of object you are working with, so 4/5 is kept as a rational number in that form: 4/5. But if you give it a decimal expression, Sage will use finite precision arithmetic.
+Note that Sage tries to remember what kind of object you are working with, so <kbd>4/5</kbd> is kept as a rational number in that form: `4/5`. But if you give it a decimal expression, Sage will use finite precision arithmetic.
 
-If you want to get a numerical (decimal) approximation to a number that is expressed differently, you can use the .n() method. This method has an option to change how many digits you want displayed. Here are some examples, all in a line. [This demonstrates how to get one compute cell to display several computations---separate them by semicolons.]
-︡a0475942-6d90-40c9-8a3c-7b59716bacef︡{"html":"<p>Note that sage tries to remember what kind of object you are working with, so 4/5 is kept as a rational number in that form: 4/5. But if you give it a decimal expression, Sage will use finite precision arithmetic.</p>\n\n<p>If you want to get a numerical (decimal) approximation to a number that is expressed differently, you can use the .n() method. This method has an option to change how many digits you want displayed. Here are some examples, all in a line. [This demonstrates how to get one compute cell to display several computations&#8212;separate them by semicolons.]</p>\n"}︡
+If you want to get a numerical (decimal) approximation to a number that is expressed differently, you can use the <kbd>.n()</kbd> method. This method has an option to change how many digits you want displayed. Here are some examples, all in a line. [This demonstrates how to get one compute cell to display several computations---separate them by semicolons.]
+︡02f32ce0-b8d4-4ccb-8abc-d156da3ca7b7︡{"md":"Note that Sage tries to remember what kind of object you are working with, so <kbd>4/5</kbd> is kept as a rational number in that form: `4/5`. But if you give it a decimal expression, Sage will use finite precision arithmetic.\n\nIf you want to get a numerical (decimal) approximation to a number that is expressed differently, you can use the <kbd>.n()</kbd> method. This method has an option to change how many digits you want displayed. Here are some examples, all in a line. [This demonstrates how to get one compute cell to display several computations---separate them by semicolons.]\n"}︡
 ︠d5f515c8-2075-4676-aedf-42e7321e7fa8︠
 4/5; .75; (4/5).n(); pi.n(digits=300)
 ︠e608b624-5042-4ff7-94c0-c6eb15ef7217i︠
@@ -104,8 +103,8 @@ expr = 1 / (1-x^2)
 show(expr)
 ︠c3ff4e52-a090-40b0-ae5f-53986892fc65i︠
 %md
-In this case, the <kbd>.show()</kbd> method tells Sage to display the output nicely using $\LaTeX{}$.
-︡a736e6d0-c960-4bef-accb-6f57c1c9cc9c︡{"html":"<p>In this case, the <kbd>.show()</kbd> method tells Sage to display the output nicely using $\\LaTeX{}$.</p>\n"}︡
+In this case, the <kbd>show()</kbd> function tells Sage to display the output nicely using $\LaTeX{}$.
+︡e4bfcfeb-574c-4714-b24c-309a1a187f2b︡{"md":"In this case, the <kbd>show()</kbd> function tells Sage to display the output nicely using $\\LaTeX{}$.\n"}︡
 ︠9599385f-a2de-481b-9e64-7dc9613049e3︠
 expr2 = - expr + expr^3
 show(expr2)
@@ -125,11 +124,11 @@ expr2.subs(x = pi); expr2.subs(x = pi).n()
 %html
 <h2>How do I get help?</h2>
 
-<p>There are several methods for getting help while using a Sage worksheet. The most obvious one is to click the Help icon in the top left corner of the page. This takes you to the Sage documentation. Almost everything you want to know can be found there in one way or another. I say <i>almost</i> because Sage is an open-source project maintained by a community of mathematicians across teh world. Some people are better than others at writing documentation. Also, it is a bit intimidating that "Almost everything you ever need to know" is there! Sage is a large project with a lot of power and functionality. It can be difficult to find the thing you need unless you know how to look for it.</p>
+<p>There are several methods for getting help while using a Sage worksheet. The most obvious one is to click the Help icon in the top left corner of the page. This takes you to the Sage documentation. Almost everything you want to know can be found there in one way or another. I say <i>almost</i> because Sage is an open-source project maintained by a community of mathematicians across the world. Some people are better than others at writing documentation. Also, it is a bit intimidating that "Almost everything you ever need to know" is there! Sage is a large project with a lot of power and functionality. It can be difficult to find the thing you need unless you know how to look for it.</p>
 <p>Thankfully, the Sage Developers have incorporated other ways to get help. The first option is called "Tab Completion." You can type part of a command and then hit the [Tab] key to get a menu of possible commands that start that way. Let's try it. In the next cell, type</p>
 <p><kbd>A = ma</kbd></p>
 <p>then hit the [Tab] key. After you are done looking, press [Escape] to leave the pop-up menu.</p>
-︡a93eaeaa-8b3a-4a4c-9293-b3f240ea4c6b︡{"html":"<h2>How do I get help?</h2>\n\n<p>There are several methods for getting help while using a Sage worksheet. The most obvious one is to click the Help icon in the top left corner of the page. This takes you to the Sage documentation. Almost everything you want to know can be found there in one way or another. I say <i>almost</i> because Sage is an open-source project maintained by a community of mathematicians across teh world. Some people are better than others at writing documentation. Also, it is a bit intimidating that \"Almost everything you ever need to know\" is there! Sage is a large project with a lot of power and functionality. It can be difficult to find the thing you need unless you know how to look for it.</p>\n<p>Thankfully, the Sage Developers have incorporated other ways to get help. The first option is called \"Tab Completion.\" You can type part of a command and then hit the [Tab] key to get a menu of possible commands that start that way. Let's try it. In the next cell, type</p>\n<p><kbd>A = ma</kbd></p>\n<p>then hit the [Tab] key. After you are done looking, press [Escape] to leave the pop-up menu.</p>"}︡
+︡76020547-dc2c-4f1a-8854-4b16d02b3832︡{"html":"<h2>How do I get help?</h2>\n\n<p>There are several methods for getting help while using a Sage worksheet. The most obvious one is to click the Help icon in the top left corner of the page. This takes you to the Sage documentation. Almost everything you want to know can be found there in one way or another. I say <i>almost</i> because Sage is an open-source project maintained by a community of mathematicians across the world. Some people are better than others at writing documentation. Also, it is a bit intimidating that \"Almost everything you ever need to know\" is there! Sage is a large project with a lot of power and functionality. It can be difficult to find the thing you need unless you know how to look for it.</p>\n<p>Thankfully, the Sage Developers have incorporated other ways to get help. The first option is called \"Tab Completion.\" You can type part of a command and then hit the [Tab] key to get a menu of possible commands that start that way. Let's try it. In the next cell, type</p>\n<p><kbd>A = ma</kbd></p>\n<p>then hit the [Tab] key. After you are done looking, press [Escape] to leave the pop-up menu.</p>\n"}︡
 ︠7bb0339a-603a-4917-99d8-a1197f847767︠
 
 ︠18755441-931a-4ccc-83ed-a8a4609750bfi︠
@@ -180,6 +179,10 @@ I left the matrix command a little mysterious above. To see why I had you type i
 
 <kbd>matrix?</kbd>
 ︡556f6c6e-a28a-4398-8288-7cc610d50140︡{"html":"<p>The other ways to get help involve using the question mark key. First, a command name followed by a question mark will evaluate to the documentation for that command.</p>\n\n<p>I left the matrix command a little mysterious above. To see why I had you type it like that, evaluate this in the next cell.</p>\n\n<p><kbd>matrix?</kbd></p>\n"}︡
+︠b545cefc-e619-4d7d-8c5e-02a705bc8489i︠
+%md
+Alternately, you can get that same documentation by executing the command <kbd>help(matrix)</kbd>. Try it now.
+︡73003675-4e13-4d0a-803f-2b6c6147053a︡{"md":"Alternately, you can get that same documentation by executing the command <kbd>help(matrix)</kbd>. Try it now.\n"}︡
 ︠c318af80-b38e-48ee-a332-fa5eaa56bde3i︠
 
 ︡ddb2110b-33d8-4b0a-a40b-0c0f32300eff︡
@@ -191,15 +194,14 @@ To get more information, you can use the double question mark. When you evaluate
 ︡97e40b44-8e3d-4351-b7e9-0ec195965421︡{"html":"<p>To get more information, you can use the double question mark. When you evaluate the command &#8220;matrix??&#8221; you will get the Sage source code for how the matrix command works! I don&#8217;t use this very often, but if you think you find a bug in Sage, this is the place to start looking. Try it tnow to see what it looks like. Evaluate</p>\n\n<p><kbd>matrix??</kbd></p>\n"}︡
 ︠9b6530d8-a895-4281-9d5c-5428d06fa3c0︠
 
-︡7a114789-6d89-47c3-bab1-f66eff23baa9︡
 ︠d51e1ca9-04b6-44ac-b78f-122d37b29053i︠
 %md
 ## What else should you know? ##
 
 We have barely scratched the surface on Sage's capabilities. It is important to see that Sage can be made to deal with functions, it can solve equations, and it can make nice plots. I'll just put some examples of using Sage to do those things here.
 
-#### Making a (mathematical) function and evaluating it. ####
-︡4a7a41a4-20d4-4001-a69f-e1b141c5d9de︡{"html":"<h2>What else should you know?</h2>\n\n<p>We have barely scratched the surface on Sage&#8217;s capabilities. It is important to see that Sage can be made to deal with functions, it can solve equations, and it can make nice plots. I&#8217;ll just put some examples of using Sage to do those things here.</p>\n\n<h4>Making a (mathematical) function and evaluating it.</h4>\n"}︡
+### Making a (mathematical) function and evaluating it. ###
+︡0b7ab287-41c3-4e2e-9b98-e0d3801c38c2︡{"md":"## What else should you know? ##\n\nWe have barely scratched the surface on Sage's capabilities. It is important to see that Sage can be made to deal with functions, it can solve equations, and it can make nice plots. I'll just put some examples of using Sage to do those things here.\n\n### Making a (mathematical) function and evaluating it. ###\n"}︡
 ︠0d73aeb5-c788-4399-8994-c3ea3a72d785︠
 f(x) = x^3 + x - 4
 f
@@ -211,8 +213,8 @@ g(x) = f.derivative()
 g(4)
 ︠1a6afcfa-648d-40c9-9857-d01e5bd17dc0i︠
 %md
-#### A basic 2d plot of our functions ####
-︡6eb49736-659c-4179-98cf-d0506b491913︡{"html":"<h4>A basic 2d plot of our functions</h4>\n"}︡
+### A basic 2d plot of our functions ###
+︡eaba5fe7-22dc-4448-b683-f38e7e709a65︡{"md":"### A basic 2d plot of our functions ###\n"}︡
 ︠54899dcd-3e7b-4601-8cfd-578fab3e896d︠
 plot([f,g],[x,-5,5])
 ︠843ba7d8-f803-4558-be04-17cdcbe7c412i︠
@@ -224,8 +226,8 @@ where = [x,-5,5]
 plot(f,where, color='red') + plot(g, where, color='green')
 ︠884d9670-4986-4b18-9779-2f3d96510756i︠
 %md
-#### Solving an equation ####
-︡5215bdc8-4555-4896-b594-b271cbb63842︡{"html":"<h4>Solving an equation</h4>\n"}︡
+### Solving an equation ###
+︡08627f60-ecfd-4723-82ac-a46a45e285ce︡{"md":"### Solving an equation ###\n"}︡
 ︠75c1242e-90ae-4ddf-b21a-a4da1bbf1d29︠
 solve([g(x)==0],x)
 ︠02e3014c-600f-41a1-a5be-67bfce91ce66i︠
@@ -242,8 +244,10 @@ P.show()
 %md
 Yes. We see that $f$ is strictly increasing. Therefore, $g'(x)$ is never zero. This is also apparent from the graph, too. Since $g$ is a quadratic polynomial, its two roots must come as a complex conjugate pair.
 
+Note that this time <kbd>.show()</kbd> is used as a _method_ applied to the object `P` rather than as a function call.
+
 Of course, Sage has many ways of handling finding roots. Here is another one.
-︡b84c9943-9341-4614-bd0e-23461bdfdab7︡{"html":"<p>Yes. We see that $f$ is strictly increasing. Therefore, $g'(x)$ is never zero. This is also apparent from the graph, too. Since $g$ is a quadratic polynomial, its two roots must come as a complex conjugate pair.</p>\n\n<p>Of course, Sage has many ways of handling finding roots. Here is another one.</p>\n"}︡
+︡ecbfecc6-606b-4287-91da-bb99051ee0b2︡{"md":"Yes. We see that $f$ is strictly increasing. Therefore, $g'(x)$ is never zero. This is also apparent from the graph, too. Since $g$ is a quadratic polynomial, its two roots must come as a complex conjugate pair.\n\nNote that this time <kbd>.show()</kbd> is used as a _method_ applied to the object `P` rather than as a function call.\n\nOf course, Sage has many ways of handling finding roots. Here is another one.\n"}︡
 ︠83f5fcc5-2342-4036-9325-02b30f51fd07︠
 g; g.roots()
 ︠0f77fc08-340d-498f-aa18-2a2a9003aa79i︠
@@ -297,7 +301,7 @@ And there a useful Q & A site:
 
 * [ask.sagemath.org](http://ask.sagemath.org/questions/)
 
-︡3749a401-750e-4a4b-b47d-8c8ed792ac39︡{"html":"<h2>Where do I get more instruction?</h2>\n\n<p>There are some good tutorials available.</p>\n\n<ul>\n<li><p><a href=\"http://www-rohan.sdsu.edu/~mosulliv/Courses/sdsu-sage-tutorial/index.html\">From a group at San Diego State University</a></p></li>\n<li><p><a href=\"http://www.sagemath.org/doc/tutorial\">The official Sage project Tutorial</a></p></li>\n<li><p><a href=\"http://sagemath.org/doc/prep/index.html\">The tutorial designed for an MAA PREP Workshop</a>.</p></li>\n<li><p>There is a shorter version of <a href=\"http://www.sagemath.org/doc/tutorial/tour.html?highlight\">the official tutorial with just highlights</a></p></li>\n<li><p>There are also &#8220;<a href=\"http://wiki.sagemath.org/quickref\">Sage quick reference documents</a>&#8221; for several subjects on the Sage Wiki. These are useful cheat sheets with frequently used commands, organized by subject.</p></li>\n</ul>\n\n<p>You can also look through relevant documentation.</p>\n\n<ul>\n<li><p>There is the page for <a href=\"http://www.sagemath.org/doc/index.html\">all of the official Sage documentation</a>.</p></li>\n<li><p><a href=\"http://docs.python.org/2/\">The Python Documentation</a>. Note that Sage uses Python 2.x for now.</p></li>\n</ul>\n\n<p>And there a useful Q &amp; A site:</p>\n\n<ul>\n<li><a href=\"http://ask.sagemath.org/questions/\">ask.sagemath.org</a></li>\n</ul>\n"}︡
+︡95a4e6c0-d49a-4c04-8cba-13f3b909e125︡{"md":"## Where do I get more instruction? ##\n\nThere are some good tutorials available.\n\n* [From a group at San Diego State University](http://www-rohan.sdsu.edu/~mosulliv/Courses/sdsu-sage-tutorial/index.html)\n\n* [The official Sage project Tutorial](http://www.sagemath.org/doc/tutorial)\n\n* [The tutorial designed for an MAA PREP Workshop](http://sagemath.org/doc/prep/index.html).\n\n* There is a shorter version of [the official tutorial with just highlights](http://www.sagemath.org/doc/tutorial/tour.html?highlight)\n\n* There are also \"[Sage quick reference documents][quick]\" for several subjects on the Sage Wiki. These are useful cheat sheets with frequently used commands, organized by subject.\n\n[quick]: http://wiki.sagemath.org/quickref\n\n\nYou can also look through relevant documentation.\n\n* There is the page for [all of the official Sage documentation](http://www.sagemath.org/doc/index.html).\n\n* [The Python Documentation](http://docs.python.org/2/). Note that Sage uses Python 2.x for now.\n\nAnd there a useful Q & A site:\n\n* [ask.sagemath.org](http://ask.sagemath.org/questions/)\n\n"}︡
 ︠53e5263b-5ea9-428f-a999-a25b3146b9cf︠
 
 
