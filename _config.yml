@@ -15,7 +15,7 @@ highlighter:   pygments
 # link urls
 
 sageurl:       "http://sagemath.org"
-smcurl:        "https://cloud.sagemath.org"
+smcurl:        "https://cloud.sagemath.com"
 sagecellurl:   "https://sagecell.sagemath.org/"
 
 pythonurl:     "http://www.python.org"

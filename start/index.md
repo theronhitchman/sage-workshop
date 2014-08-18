@@ -15,9 +15,8 @@ Follow the steps below to make a new account on SMC:
 4. Fill out the form, check the box, and press the big button at the bottom of the page.
 
 The official help page for SMC has instructions for making an account. From SMC,
-click the button labelled <button type="button" class="btn btn-default">
-<span class="glyphicon glyphicon-question-sign"></span>Help</button> in the upper left-hand
-corner, then browse down to the heading for **Documentation** to find it. There is a link
+click the button labeled "<span class="glyphicon glyphicon-question-sign"></span> Help"
+in the upper left-hand corner, then browse down to the heading for **Documentation** to find it. There is a link
 to a video tutorial, too.
 
 
