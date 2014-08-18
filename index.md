@@ -20,7 +20,9 @@ Sage has many convenient features:
 - Sage makes extensive use of [Python]({{site.pythonurl}}), a powerful, easy-to-learn, and popular scripting language.
 
 At some point, you might want to get your own copy of Sage and download it. But
-for now, use the cloud service at [{{site.smcurl}}]({{site.smcurl}}).
+for now, use the cloud service at [{{site.smcurl}}]({{site.smcurl}}). The cloud service
+is powerful and flexible, and let's you use Sage, Python, R, iPython, LaTeX, and more
+through a web browser.
 
 <hr />
 
