@@ -29,6 +29,14 @@ There a useful Q & A site:
 
 * [ask.sagemath.org](http://ask.sagemath.org/questions/)
 
+Relevant Google Groups mailing lists:
+
+* [sage-cloud](https://groups.google.com/forum/#!forum/sage-cloud)
+
+* [sage-devel](https://groups.google.com/forum/#!forum/sage-devel)
+
+* [sage-support](https://groups.google.com/forum/#!forum/sage-support)
+
 And an introductory book:
 
 * Sage for Undergraduates by Greg Bard, available from [his web page](http://www.gregorybard.com/SAGE.html).

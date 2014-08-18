@@ -21,5 +21,22 @@ global audience, and I like to pretend that Buster Keaton is the one moving the 
 
 ### Videos by Theron Hitchman
 
-* coming
-* soon
+(I will fill these in as they get made.) The following videos all focus on using
+Sage through the SageMathCloud service.
+
+* What is Sage?
+* Managing Projects: create, rename, describe, search, hide, delete, re-establish, share
+* Managing Files in a Project with the GUI: create, import, delete, rename, move, search
+* Common file types in SMC: worksheets, terminals, LaTeX, pdf, iPython, tasks, markdown, code
+* Using the terminal to manage files: `cd`, `mkdir`, `touch`, `open`, `rm`, `ls`,
+  `pwd`, `less`, `more`
+* Sage as a Calculator
+* Sage for linear algebra: vectors and matrix algebra
+* Sage and _methods_: object-oriented syntax
+* Sage and Python scripting
+* Annotating Sage worksheets with html or markdown
+* Printing from SMC
+* SMC's chat feature
+* Finding help: [tab]-completion, the `?` and `??` methods
+* 2D plotting
+* 3D plotting
