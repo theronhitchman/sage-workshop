@@ -12,7 +12,7 @@ demonstration of how to do something useful with SMC.
 To avoid becoming language-dependent these videos are silent. This is better for Sage's
 global audience, and I like to pretend that Buster Keaton is the one moving the mouse.
 
-* [How to create and a account on SMC](https://www.youtube.com/watch?v=eadnL5hDg9M)
+* [How to create an account on SMC](https://www.youtube.com/watch?v=eadnL5hDg9M)
 * [Basic account management on SMC](https://www.youtube.com/watch?v=A9zltIsU2cM):
   Changing your username, password, or email address.
 * [Using LaTeX throughout the interface](https://www.youtube.com/embed/IaachWg4IEQ)  with MathJax support
