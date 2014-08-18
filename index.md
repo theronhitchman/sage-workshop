@@ -14,14 +14,14 @@ From the official [Sage Project Web Site]({{site.sageurl}}):
 
 Sage has many convenient features:
 
-- It is FREE. Sage is free to use, free to modify, free to share.
+- It is FREE and OPEN. Sage is free to use, free to modify, free to share.
 - The cloud/notebook/worksheet system can be used in any (modern) browser, without installation.
 - There is an active and helpful community of developers and users around the world.
 - Sage makes extensive use of [Python]({{site.pythonurl}}), a powerful, easy-to-learn, and popular scripting language.
 
 At some point, you might want to get your own copy of Sage and download it. But
-for now, use the cloud service at [{{site.smcurl}}]({{site.smcurl}}). The cloud service
-is powerful and flexible, and let's you use Sage, Python, R, iPython, LaTeX, and more
+for now, use the SageMathCloud (SMC) service at [{{site.smcurl}}]({{site.smcurl}}).
+The cloud service is powerful and flexible, and let's you use Sage, Python, R, iPython, LaTeX, and more
 through a web browser.
 
 <hr />

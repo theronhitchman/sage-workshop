@@ -19,16 +19,19 @@ There are some good tutorials available.
 
 [quick]: http://wiki.sagemath.org/quickref
 
-
 You can also look through relevant documentation.
 
 * There is the page for [all of the official Sage documentation](http://www.sagemath.org/doc/index.html).
 
 * [The Python Documentation](http://docs.python.org/2/). Note that Sage uses Python 2.x as of the time this page was written.
 
-And there a useful Q & A site:
+There a useful Q & A site:
 
 * [ask.sagemath.org](http://ask.sagemath.org/questions/)
+
+And an introductory book:
+
+* Sage for Undergraduates by Greg Bard, available from [his web page](http://www.gregorybard.com/SAGE.html).
 
 <hr />
 

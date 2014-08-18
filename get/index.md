@@ -12,12 +12,12 @@ hosting service [GitHub](http://github.com).
   You can fill these out however you like, as the fields can easily be changed later
   without consequence. When you have completed making a new project, it should now show
   up in your home list of projects.
-- Click anywhere in the row describing your new project.
-- Your new project is empty. You should see a link called "Create or Import a new..."
+- Click anywhere in the row describing your new project to open it.
+- Your new project is empty, so there are no files displayed in the list in front of you.
+  Instead, you should see a link called "Create or Import a new..."
   Click it. The page will refresh to one with lots of options, including a big input
   box with a date-formatted file name highlighted in blue.
 - Replace that file name with this:
-
 
       https://github.com/theronhitchman/sage-workshop.git
 
