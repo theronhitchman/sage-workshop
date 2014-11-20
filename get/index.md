@@ -17,12 +17,13 @@ hosting service [GitHub](http://github.com).
 - Now open a new tab in your browser and paste the following url into the address bar:  
 
       https://cloud.sagemath.com/projects/9951941c-a526-4235-a3cf-8dcd24d14cc5/files/Materials/SageBeginnerTutorial.sagews
+
   This will open up a public (read-only) copy of a beginner's worksheet.
 - Press the button labeled <kbd>copy to my project</kbd>. Follow the instructions
   in the pop-up window.
 
 When you are done, you will have a functioning copy of a `.sagews` file in your
-project. 
+project.
 
 <div class="btn-group">
   <a href="{{site.baseurl}}/go/">
