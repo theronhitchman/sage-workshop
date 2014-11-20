@@ -28,6 +28,7 @@ Sage through the SageMathCloud service.
 * Managing Projects: create, rename, describe, search, hide, delete, re-establish, share
 * Managing Files in a Project with the GUI: create, import, delete, rename, move, search, download
 * Common file types in SMC: worksheets, terminals, LaTeX, pdf, iPython, tasks, markdown, code
+* Settings: user-level and project-level
 * Using the terminal to manage files: `cd`, `mkdir`, `touch`, `open`, `rm`, `ls`,
   `pwd`, `less`, `more`
 * Sage as a Calculator

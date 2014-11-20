@@ -14,15 +14,15 @@ hosting service [GitHub](http://github.com).
   up in your home list of projects.
 - Click anywhere in the row describing your new project to open it.
 - Your new project is empty, so there are no files displayed in the list in front of you.
-  Instead, you should see a link called "Create or Import a new..."
-  Click it. The page will refresh to one with lots of options, including a big input
-  box with a date-formatted file name highlighted in blue.
-- Replace that file name with this:
+- Now open a new tab in your browser and paste the following url into the address bar:  
 
-      https://github.com/theronhitchman/sage-workshop.git
+      https://cloud.sagemath.com/projects/9951941c-a526-4235-a3cf-8dcd24d14cc5/files/Materials/SageBeginnerTutorial.sagews
+  This will open up a public (read-only) copy of a beginner's worksheet.
+- Press the button labeled <kbd>copy to my project</kbd>. Follow the instructions
+  in the pop-up window.
 
-  and click the "from the internet" button. In a few seconds you will have a directory called
-  `sage-workshop` in your project.
+When you are done, you will have a functioning copy of a `.sagews` file in your
+project. 
 
 <div class="btn-group">
   <a href="{{site.baseurl}}/go/">
