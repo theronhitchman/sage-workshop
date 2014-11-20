@@ -1,4 +1,4 @@
-︠5582fd8f-1c81-4c61-b195-00ee2a5fdeddi︠
+︠5582fd8f-1c81-4c61-b195-00ee2a5fdeddis︠
 %html
 <center><h1>Sage Beginner's Workshop</h1></center>
 
@@ -8,20 +8,20 @@ This is an introduction to the basic functionality of Sage, with an emphasis on 
 
 <hr />
 
-Note that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href="http://uni.sagenb.org/home/pub/0/">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.
+Note that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href="http://uni.sagenb.org/home/pub/0/">once available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.
 
 <hr />
 
 <h2>Worksheet Basics</h2>
 
 The first thing to note is that a worksheet is made up of "cells." These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4.
-︡1cfd9f95-e591-403e-8d16-fc77aea42917︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources.\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4."}︡
+︡cd1f5d65-e690-44a4-9d52-fb92d7d046be︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources.\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">once available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4.\n"}︡
 ︠8cd31a74-73ca-434a-996d-b2339b8f3160︠
 5+4
-︠df84264c-fbe7-43b9-97a2-45e094363aebi︠
+︠df84264c-fbe7-43b9-97a2-45e094363aebis︠
 %html
 <p>
-Note that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.
+Note that the output is marked by an orange bar on the left near the line numbers, and the inputs are separated by grey horizontal rulings. Evaluating the cell will turn the farthest righthand portion of that ruling to blue. While the computation is going (and your worksheet is waiting for a response from the server) the middle portion of the grey ruling will flash green. Also, the active cell has a light blue background.
 </p>
 <p>
 Another way to evaluate a cell is to use the "run" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word "run" on it. If not, just look for the triangle pointing to the right.
@@ -29,7 +29,7 @@ Another way to evaluate a cell is to use the "run" button at the top of the work
 <p>
 Try that version now with the simple computation below.
 <p>
-︡a76ef72f-2a0d-46ae-a729-6f53cd066b5f︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>"}︡
+︡776d3f25-bc21-4cf0-8093-ebe9b0b21b60︡{"html":"<p>\nNote that the output is marked by an orange bar on the left near the line numbers, and the inputs are separated by grey horizontal rulings. Evaluating the cell will turn the farthest righthand portion of that ruling to blue. While the computation is going (and your worksheet is waiting for a response from the server) the middle portion of the grey ruling will flash green. Also, the active cell has a light blue background.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>\n"}︡
 ︠640cc705-2c35-4751-804b-62f46a23e2bf︠
 67-5
 ︠aa88d77c-911e-4ea7-9316-8bb11a061c17i︠
@@ -56,26 +56,38 @@ Note that pressing [Backspace] at the beginning of a cell will also remove the h
 "not empty, empty me first to delete me"
 ︠a2a3a8ce-1593-44fc-a33c-7dbc92f6f6e2︠
 
-︠a702b99e-7120-425e-8f20-3a3f69d41de9i︠
+︠a702b99e-7120-425e-8f20-3a3f69d41de9is︠
 %md
 It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.
 
  + HTML: If you open a cell with the "decorator" <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.
 
+ + LaTeX: If you open a cell with the "decorator" <kbd>%latex</kbd> as the first line, the worksheet will process the rest of the cell with $\LaTeX\ $.
+
  + Markdown: If you open a cell with the "decorator" <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.
 
-If you don't know either, basic [Markdown][md] is easy to learn. Even if you don't learn it, paragraphs typed in markdown will display roughly how you want them on this page.
+If you don't know any of these, basic [Markdown][md] is easy to learn. Even if you don't learn it, paragraphs typed in markdown will display roughly how you want them on this page.
 
-After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.
+After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of the html and markdown approaches, so you can double click them to see some examples of how this works.
 
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown Syntax Page"
-︡16d7f3d4-8263-47b5-99ae-9f4b725178d6︡{"html":"<p>It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.</p>\n\n<ul>\n<li><p>HTML: If you open a cell with the &#8220;decorator&#8221; <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.</p></li>\n<li><p>Markdown: If you open a cell with the &#8220;decorator&#8221; <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.</p></li>\n</ul>\n\n<p>If you don&#8217;t know either, basic <a href=\"http://daringfireball.net/projects/markdown/syntax\" title=\"Markdown Syntax Page\">Markdown</a> is easy to learn. Even if you don&#8217;t learn it, paragraphs typed in markdown will display roughly how you want them on this page.</p>\n\n<p>After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.</p>\n"}︡
+︡4febd4c7-589a-4206-8957-a57b321660a3︡{"md":"It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.\n\n + HTML: If you open a cell with the \"decorator\" <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.\n\n + LaTeX: If you open a cell with the \"decorator\" <kbd>%latex</kbd> as the first line, the worksheet will process the rest of the cell with $\\LaTeX\\ $.\n\n + Markdown: If you open a cell with the \"decorator\" <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.\n\nIf you don't know any of these, basic [Markdown][md] is easy to learn. Even if you don't learn it, paragraphs typed in markdown will display roughly how you want them on this page.\n\nAfter evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of the html and markdown approaches, so you can double click them to see some examples of how this works.\n\n[md]: http://daringfireball.net/projects/markdown/syntax \"Markdown Syntax Page\"\n"}︡
 ︠fc56969e-9a03-41d4-9ac9-d5e837a8981a︠
 
 ︡f4eae00a-c306-4656-b36f-c8f8fb5b82a8︡
 ︠3a466ffb-bc4c-490e-b66b-b1221d79b1f3︠
 
-︡25ee79c9-48bd-4b34-8630-79a02a53c8ef︡
+︠7321804c-d590-4c1d-8740-ea1acc18921fis︠
+%md
+For those of you who write lots of code, note several useful features of <kbd>.sagews</kbd> files in SMC that make appearances below:
+
+ * code folding
+ * line numbers
+ * auto-matching of parentheses
+ * code highlighting
+
+SMC has lots of useful buttons in the toolbar across the top of the page! Let your mouse hover over them and a tooltip will appea
+︡30a5dded-e5bb-4d4f-8dda-7453c7695eae︡{"md":"For those of you who write lots of code, note several useful features of <kbd>.sagews</kbd> files in SMC that make appearances below:\n\n * code folding\n * line numbers\n * auto-matching of parentheses\n * code highlighting\n\nSMC has lots of useful buttons in the toolbar across the top of the page! Let your mouse hover over them and a tooltip will appea\n"}︡
 ︠e37895f9-f78b-4ffe-b32d-be1cbd5e1ef7i︠
 %html
 <h2>Sage as a Calculator</h2>
@@ -102,10 +114,10 @@ Sage can also be used as a *symbolic* calculator. (It is a computer algebra syst
 x = var('x')
 expr = 1 / (1-x^2)
 show(expr)
-︠c3ff4e52-a090-40b0-ae5f-53986892fc65i︠
+︠c3ff4e52-a090-40b0-ae5f-53986892fc65is︠
 %md
-In this case, the <kbd>.show()</kbd> method tells Sage to display the output nicely using $\LaTeX{}$.
-︡a736e6d0-c960-4bef-accb-6f57c1c9cc9c︡{"html":"<p>In this case, the <kbd>.show()</kbd> method tells Sage to display the output nicely using $\\LaTeX{}$.</p>\n"}︡
+In this case, the function <kbd>show()</kbd> tells Sage to display the output nicely using $\LaTeX{}$.
+︡4cf5f8e0-e988-4f9b-8ecf-70a2aa394daf︡{"md":"In this case, the function <kbd>show()</kbd> tells Sage to display the output nicely using $\\LaTeX{}$.\n"}︡
 ︠9599385f-a2de-481b-9e64-7dc9613049e3︠
 expr2 = - expr + expr^3
 show(expr2)
@@ -183,6 +195,12 @@ I left the matrix command a little mysterious above. To see why I had you type i
 ︠c318af80-b38e-48ee-a332-fa5eaa56bde3i︠
 
 ︡ddb2110b-33d8-4b0a-a40b-0c0f32300eff︡
+︠b225e270-b478-4c2a-92ff-4ecfa5b6ab06is︠
+%md
+Another way to do this is to type <kbd>matrix()</kbd> and press [tab] with the cursor inside the parentheses. A pop-up with the documentation for the matrix constructor function will appear. It will have a description and lots of examples.
+︡30378002-8e03-4428-a0f2-ca14f6f59bd0︡{"md":"Another way to do this is to type <kbd>matrix()</kbd> and press [tab] with the cursor inside the parentheses. A pop-up with the documentation for the matrix constructor function will appear. It will have a description and lots of examples.\n"}︡
+︠387674b8-8951-4107-89a9-e7df4412d00b︠
+
 ︠92805e48-ca59-436d-95c6-1f7384a0498bi︠
 %md
 To get more information, you can use the double question mark. When you evaluate the command "matrix??" you will get the Sage source code for how the matrix command works! I don't use this very often, but if you think you find a bug in Sage, this is the place to start looking. Try it tnow to see what it looks like. Evaluate
